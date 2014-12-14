@@ -1,7 +1,6 @@
 STM32 Environment with Docker
 -----------------------------
-
-References: 
+### References: 
 
 1. https://docs.docker.com/reference/builder  
 2. https://stm32f429.hackpad.com/NOTE-WbiooOfkaoR  
