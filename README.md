@@ -38,7 +38,7 @@ $> docker pull cartertsai/stm32-dev
 * Run image
 
 ```
-$> sudo docker run -i -t --privileged -v /dev/bus/usb:/dev/bus/usb cartertsai/stm32-dev /bin/bash
+$> bash run.sh 
 ```
 
 * Update firmware 
