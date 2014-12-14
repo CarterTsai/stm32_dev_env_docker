@@ -19,3 +19,6 @@ RUN apt-get install -y wget
 RUN cd /home && mkdir stm32 && cd stm32 && wget http://www.st.com/st-web-ui/static/active/en/st_prod_software_internet/resource/technical/software/firmware/stsw-stm32138.zip
 RUN apt-get install unzip
 RUN cd /home/stm32 && unzip stsw-stm32138.zip
+RUN apt-get install -y vim
+RUN cd /home/stm32 && arm-none-eabi-objcopy -I ihex -O binary `find -name STM32F429I-DISCOVERY_Demo_V1.0.1.hex` /tmp/out.bin
+
