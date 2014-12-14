@@ -4,8 +4,14 @@ STM32 Environment with Docker
 References: 
 
 1. https://docs.docker.com/reference/builder  
-2. https://docs.docker.com/reference/builder/#from  
+2. https://stm32f429.hackpad.com/NOTE-WbiooOfkaoR  
 
+### Development Environment
+```
+OS: Ubuntu 14.10
+Docker: 1.4.0
+Development Platform: STM32F429I-Discovery
+```
 
 ### Install Docker on Ubuntu
 
@@ -16,12 +22,6 @@ $> sudo apt-get update
 $> sudo apt-get install lxc-docker
 ```
 
-### Development Environment
-```
-OS: Ubuntu 14.10
-Docker: 1.4.0
-Development Platform: STM32F429I-Discovery
-```
 ### Build or Pull Images
 
 1. build images
