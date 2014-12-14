@@ -28,20 +28,20 @@ Development Platform: STM32F429I-Discovery
 ```
 $> bash build.sh
 ```
-2. pull images from docker hub
+or pull images from docker hub
 ```
 $> docker pull cartertsai/stm32-dev 
 ```
 
 ### Run Images and Example
 
-1. Run image
+* Run image
 
 ```
 $> sudo docker run -i -t --privileged -v /dev/bus/usb:/dev/bus/usb cartertsai/stm32-dev /bin/bash
 ```
 
-2. Update firmware 
+* Update firmware 
 
 ```
 $> cd /home/stm32
