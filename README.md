@@ -38,6 +38,7 @@ $> docker pull cartertsai/stm32-dev
 * Run image
 
 ```
+$> mkdir app
 $> bash run.sh 
 ```
 
