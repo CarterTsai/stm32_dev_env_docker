@@ -16,11 +16,11 @@ $> sudo apt-get install lxc-docker
 ```
 
 ### Development Environment
-
+```
 OS: Ubuntu 14.10
 Docker: 1.4.0
 Development Platform: STM32F429I-Discovery
-
+```
 ### Build or Pull Images
 
 1. build images
@@ -29,7 +29,7 @@ $> bash build.sh
 ```
 2. pull images from docker hub
 ```
-$> 
+$> docker pull cartertsai/stm32-dev 
 ```
 
 ### Run Images and Example
@@ -50,6 +50,6 @@ $> arm-none-eabi-objcopy -I ihex -O binary `find -name STM32F429I-DISCOVERY_Demo
 $> st-flash write /tmp/out.bin 0x8000000
 ```
 
-Enjoy it :D !!!
+## Enjoy it :D !!!
 
 

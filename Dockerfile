@@ -21,4 +21,5 @@ RUN apt-get install unzip
 RUN cd /home/stm32 && unzip stsw-stm32138.zip
 RUN apt-get install -y vim
 RUN cd /home/stm32 && arm-none-eabi-objcopy -I ihex -O binary `find -name STM32F429I-DISCOVERY_Demo_V1.0.1.hex` /tmp/out.bin
-
+RUN rm /home/stm32/stsw-stm32138.zip
+RUN sudo apt-get install -y gdb-arm-none-eabi
